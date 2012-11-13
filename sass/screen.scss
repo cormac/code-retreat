@@ -76,17 +76,17 @@ p {
   }
   a {
     display: block;
+    float: left;
   }
   a.first {
-    width: 43%;
+    width: 53%;
     margin-bottom: 10px;
   }
   a.second {
-    float: left;
+    width: 20%;
 
   }
   a.third {
-    float: left;
     
   }
 }
@@ -109,15 +109,24 @@ nav {
   display: none;
 }
 @media only screen and (max-device-width: 480px) {
+  h3 {
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+#register {
+  width: 50%;
+}
   .header { 
-    height: 89px;
+    background-color: $body_bg_color;
     h1 {
       text-indent: -7000px;
-      height: 89px;
-      width: 1024px;
+      width: 100%;
       display: block;
       margin:auto;
-      background-image: url('../assets/code_retreat_header.png');
+      background-repeat: no-repeat;
+      background-image: url('../assets/code_retreat_header_mobile_480.png');
+      background-size: 100% auto;
     }
   }
 
@@ -165,6 +174,25 @@ nav {
   #map_canvas {
     width: 90%;
     margin: auto;
+  }
+  .sponsors {
+    margin-left: 10px;
+
+    a.first img {
+      width:300px;
+    }
+    a.second {
+      clear: left;
+      img {
+        height: 40px;
+      }
+    }
+    a.third {
+      height: 40px;
+      float: right;
+      margin-right: 20px;
+      
+    }
   }
 }
 
