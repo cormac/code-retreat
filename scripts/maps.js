@@ -8,10 +8,10 @@ CR.maps = (function (document, window, undefined) {
       infowindow,
       initMaps;
 
-  mapCenter = new google.maps.LatLng( 53.346131,-6.242396 );
+  mapCenter = new google.maps.LatLng( 53.3527406,-6.2488616 );
   mapMarker = new google.maps.Marker({
       position: mapCenter,
-      title: 'Telefonica Ireland'
+      title: 'Terminal Four'
   });
   
   mapOptions = {
@@ -21,8 +21,8 @@ CR.maps = (function (document, window, undefined) {
   };
 
   contentString = '<div id="bubble-content">' +
-    "<p><b>O2 Telefonica</b></p>" +
-    "<p>28-29 Sir John Rogersons Quay</p>" +
+    "<p><b>Terminal Four</b></p>" +
+    "<p>110 Amiens Street</p>" +
     '</div>';
 
   infowindow = new google.maps.InfoWindow({

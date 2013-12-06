@@ -75,9 +75,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* button */
 /* line 18, ../sass/screen.scss */
 body {
-  color: white;
   font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
   background-color: #bbc4ae;
+}
+p, h3 { 
+  color: white;
 }
 
 /* line 24, ../sass/screen.scss */
@@ -286,12 +288,14 @@ nav {
   }
   /* line 186, ../sass/screen.scss */
   .sponsors a.second img {
-    height: 40px;
+    height: 60px;
   }
   /* line 190, ../sass/screen.scss */
   .sponsors a.third {
-    height: 40px;
+    height: 60px;
     float: right;
     margin-right: 20px;
   }
-}
+  #bubble-content p{
+    color: black;
+  }
