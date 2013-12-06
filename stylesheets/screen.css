@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,100 +19,98 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-body {
+/* line 22, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
   line-height: 1;
 }
 
-/* line 22, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../Users/cormac/.rvm/gems/ruby-1.9.3-p429/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 10, ../sass/screen.scss */
 * {
   box-sizing: border-box;
 }
 
 /* button */
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 body {
-  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+  color: white;
+  font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
   background-color: #bbc4ae;
 }
-p, h3 { 
-  color: white;
-}
 
-/* line 24, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 h3 {
   font-size: 26px;
   margin-left: 140px;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 29, ../sass/screen.scss */
 section {
   width: 1024px;
   margin: auto;
   margin-bottom: 10px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 p {
   margin-bottom: 10px;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 #map_canvas {
   width: 100%;
   height: 300px;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, ../sass/screen.scss */
 .header {
   width: 100%;
   background-color: #7ab553;
   height: 89px;
 }
-/* line 47, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 .header h1 {
   text-indent: -7000px;
   height: 89px;
@@ -122,7 +120,7 @@ p {
   background-image: url("../assets/code_retreat_header.png");
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 #register {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -136,79 +134,84 @@ p {
   width: 25%;
   margin: auto;
 }
-/* line 65, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 #register a, #register a:hover, #register a:active {
   color: white;
   font-size: 20px;
   text-decoration: none;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .sponsors {
   clear: both;
   padding-bottom: 20px;
 }
-/* line 74, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .sponsors h3 {
   margin-left: 0px;
 }
-/* line 77, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 .sponsors a {
   display: block;
   float: left;
 }
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .sponsors a.first {
-  width: 53%;
+  width: 15%;
   margin-bottom: 10px;
 }
-/* line 85, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .sponsors a.second {
   width: 20%;
 }
 
 /* line 94, ../sass/screen.scss */
+#map {
+  clear: left;
+}
+
+/* line 98, ../sass/screen.scss */
 .code-retreat-description {
   float: left;
   width: 50%;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .code-retreat-video {
   float: right;
   width: 50%;
   margin-bottom: 10px;
 }
-/* line 101, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .code-retreat-video iframe {
   float: right;
   width: 500px;
   height: 300px;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 nav {
   display: none;
 }
 
 @media only screen and (max-device-width: 480px) {
-  /* line 112, ../sass/screen.scss */
+  /* line 116, ../sass/screen.scss */
   h3 {
     margin-left: 0px;
     font-size: 16px;
     font-weight: bold;
   }
 
-  /* line 117, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   #register {
     width: 50%;
   }
 
-  /* line 120, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   .header {
     background-color: #bbc4ae;
   }
-  /* line 122, ../sass/screen.scss */
+  /* line 126, ../sass/screen.scss */
   .header h1 {
     text-indent: -7000px;
     width: 100%;
@@ -219,14 +222,14 @@ nav {
     background-size: 100% auto;
   }
 
-  /* line 133, ../sass/screen.scss */
+  /* line 137, ../sass/screen.scss */
   section {
     width: 100%;
     margin: auto;
     margin-bottom: 10px;
   }
 
-  /* line 138, ../sass/screen.scss */
+  /* line 142, ../sass/screen.scss */
   nav {
     width: 102%;
     display: block;
@@ -234,7 +237,7 @@ nav {
     bottom: 0px;
     z-index: 500;
   }
-  /* line 144, ../sass/screen.scss */
+  /* line 148, ../sass/screen.scss */
   nav a {
     display: block;
     width: 33%;
@@ -250,12 +253,12 @@ nav {
     border-right: solid 1px #3e3e3e;
   }
 
-  /* line 159, ../sass/screen.scss */
+  /* line 163, ../sass/screen.scss */
   .about-code-retreat, .code-retreat-video {
     float: none;
     width: 100%;
   }
-  /* line 162, ../sass/screen.scss */
+  /* line 166, ../sass/screen.scss */
   .about-code-retreat iframe, .code-retreat-video iframe {
     float: none;
     margin: auto;
@@ -263,39 +266,37 @@ nav {
     width: 100%;
   }
 
-  /* line 170, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   .code-retreat-description {
     width: 100%;
   }
 
-  /* line 174, ../sass/screen.scss */
+  /* line 178, ../sass/screen.scss */
   #map_canvas {
     width: 90%;
     margin: auto;
   }
 
-  /* line 178, ../sass/screen.scss */
+  /* line 182, ../sass/screen.scss */
   .sponsors {
     margin-left: 10px;
   }
-  /* line 181, ../sass/screen.scss */
+  /* line 185, ../sass/screen.scss */
   .sponsors a.first img {
     width: 300px;
   }
-  /* line 184, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   .sponsors a.second {
     clear: left;
   }
-  /* line 186, ../sass/screen.scss */
-  .sponsors a.second img {
-    height: 60px;
-  }
   /* line 190, ../sass/screen.scss */
+  .sponsors a.second img {
+    height: 40px;
+  }
+  /* line 194, ../sass/screen.scss */
   .sponsors a.third {
-    height: 60px;
+    height: 40px;
     float: right;
     margin-right: 20px;
   }
-  #bubble-content p{
-    color: black;
-  }
+}
