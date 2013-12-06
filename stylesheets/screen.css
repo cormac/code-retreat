@@ -157,11 +157,15 @@ p {
 }
 /* line 82, ../sass/screen.scss */
 .sponsors a.first {
-  width: 15%;
+  width: 12%;
   margin-bottom: 10px;
 }
 /* line 86, ../sass/screen.scss */
 .sponsors a.second {
+  width: 24%;
+}
+/* line 90, ../sass/screen.scss */
+.sponsors a.third {
   width: 20%;
 }
 
